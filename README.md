@@ -91,10 +91,10 @@
 
 </p>
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sorashree&show_icons=true&theme=radical" alt="Shreeya's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=sorashree&show_icons=true&theme=radical&hide=contribs" alt="Shreeya's GitHub Stats" />
 </p>
 
 <p align="center">
