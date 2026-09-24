@@ -1,23 +1,25 @@
-name: Generate GitHub Contribution Graph Artwork
+name: Gitartwork
 
 on:
   push:
-    branches:
-      - main
 
 jobs:
   build:
+    name: Make gitartwork SVG
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: Generate contribution graph SVG
-        uses: jasineri/gitartwork@main  # Public action
+      - name: Generate Gitartwork
+        uses: jasineri/gitartwork@v1
         with:
-          user_name: Sorashree
-          text: SHREEYA MUKHERJEE
+          # Your GitHub username
+          user_name: sorashree
 
-      - name: Commit SVG
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update gitartwork.svg"
+          # Text displayed on the artwork
+          text: SHREEYA
+
+      - name: Push Gitartwork
+        uses: jasineri/simple-push-action@v1
