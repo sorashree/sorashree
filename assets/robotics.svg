@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="320"
+     viewBox="0 0 1200 320">
+
+  <!-- Background -->
+  <rect width="1200"
+        height="320"
+        fill="#050505"/>
+
+  <!-- Ground -->
+  <line x1="100"
+        y1="260"
+        x2="1100"
+        y2="260"
+        stroke="#123b32"
+        stroke-width="2"/>
+
+  <!-- Circuit lines -->
+  <g stroke="#00ff88"
+     stroke-width="1"
+     opacity="0.25">
+
+    <path d="M100 260 H250 V220 H350"/>
+    <path d="M850 220 H950 V260 H1100"/>
+    <path d="M180 260 V290 H400"/>
+    <path d="M800 290 H1020 V260"/>
+
+  </g>
+
+  <!-- Drone -->
+  <g transform="translate(600 105)"
+     fill="none"
+     stroke="#00ff88"
+     stroke-width="3">
+
+    <!-- Body -->
+    <path d="M-55 0
+             L-25 -20
+             L25 -20
+             L55 0
+             L25 20
+             L-25 20 Z"/>
+
+    <!-- Left arms -->
+    <path d="M-40 -5 L-120 -55"/>
+    <path d="M-40 5 L-120 55"/>
+
+    <!-- Right arms -->
+    <path d="M40 -5 L120 -55"/>
+    <path d="M40 5 L120 55"/>
+
+    <!-- Rotors -->
+    <ellipse cx="-130"
+             cy="-60"
+             rx="30"
+             ry="8">
+
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0 -130 -60"
+        to="360 -130 -60"
+        dur="0.8s"
+        repeatCount="indefinite"/>
+
+    </ellipse>
+
+    <ellipse cx="-130"
+             cy="60"
+             rx="30"
+             ry="8">
+
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="360 -130 60"
+        to="0 -130 60"
+        dur="0.8s"
+        repeatCount="indefinite"/>
+
+    </ellipse>
+
+    <ellipse cx="130"
+             cy="-60"
+             rx="30"
+             ry="8">
+
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0 130 -60"
+        to="360 130 -60"
+        dur="0.8s"
+        repeatCount="indefinite"/>
+
+    </ellipse>
+
+    <ellipse cx="130"
+             cy="60"
+             rx="30"
+             ry="8">
+
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="360 130 60"
+        to="0 130 60"
+        dur="0.8s"
+        repeatCount="indefinite"/>
+
+    </ellipse>
+
+    <!-- Payload -->
+    <rect x="-18"
+          y="20"
+          width="36"
+          height="35"
+          rx="4"/>
+
+  </g>
+
+  <!-- Flight path -->
+  <path d="M250 170
+           Q400 40 600 105
+           Q800 170 950 80"
+        fill="none"
+        stroke="#00ff88"
+        stroke-width="2"
+        stroke-dasharray="8 8"
+        opacity="0.45">
+
+    <animate
+      attributeName="stroke-dashoffset"
+      from="0"
+      to="-32"
+      dur="1.5s"
+      repeatCount="indefinite"/>
+
+  </path>
+
+  <!-- RF waves -->
+  <g fill="none"
+     stroke="#00ff88"
+     stroke-width="2"
+     opacity="0.6">
+
+    <path d="M540 50 Q600 0 660 50">
+      <animate
+        attributeName="opacity"
+        values="0.2;0.8;0.2"
+        dur="2s"
+        repeatCount="indefinite"/>
+    </path>
+
+    <path d="M515 30 Q600 -40 685 30">
+      <animate
+        attributeName="opacity"
+        values="0.1;0.6;0.1"
+        dur="2.5s"
+        repeatCount="indefinite"/>
+    </path>
+
+  </g>
+
+  <!-- Robot/AI status -->
+  <g font-family="monospace"
+     font-size="13"
+     fill="#00ff88">
+
+    <text x="120" y="90">
+      SENSOR: ONLINE
+    </text>
+
+    <text x="120" y="112">
+      RF LINK: ACTIVE
+    </text>
+
+    <text x="930" y="90">
+      UAV: AUTONOMOUS
+    </text>
+
+    <text x="930" y="112">
+      PAYLOAD: DETECTED
+    </text>
+
+  </g>
+
+  <!-- Bottom title -->
+  <text x="600"
+        y="300"
+        text-anchor="middle"
+        fill="#ffffff"
+        font-family="monospace"
+        font-size="18">
+
+    SENSE • COMPUTE • COMMUNICATE • ACT
+
+  </text>
+
+</svg>
