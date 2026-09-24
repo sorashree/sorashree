@@ -1,39 +1,34 @@
 <!-- ========================= -->
-
-<!--        HERO SECTION       -->
-
+<!--      HERO SECTION         -->
 <!-- ========================= -->
 
 <p align="center">
-  <img src="./assets/matrix.svg" width="100%" alt="Animated Matrix Robotics Header">
+  <img
+    src="./assets/github-header.svg"
+    width="100%"
+    alt="SHREEYA Robotics and Embedded Systems Header"
+  />
+</p>
+
+<h2 align="center">
+  ECE Embedded Systems Student • Robotics & UAV Systems
+</h2>
+
+<p align="center">
+  <i>
+    Building intelligent systems that sense, communicate, decide and act.
+  </i>
+</p>
+
+<p align="center">
+  <img
+    src="./assets/typing.svg"
+    width="85%"
+    alt="Animated Introduction"
+  />
 </p>
 
 <br>
-
-<p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Shreeya Mukherjee Robotics Header">
-</p>
-
-<br>
-
-<p align="center">
-  <img src="./assets/typing.svg" width="85%" alt="Animated Profile Introduction">
-</p>
-
-<br>
-
-<p align="center">
-  <img src="./assets/robotics.svg" width="90%" alt="Animated Autonomous Robotics Visual">
-</p>
-
-<br>
-
-<p align="center">
-
-  <img src="https://komarev.com/ghpvc/?username=sorashree&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views">
-
-</p>
-
 <!-- ========================= -->
 
 <!--       INTRODUCTION        -->
@@ -100,4 +95,3 @@
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sorashree&theme=github_dark" alt="Shreeya's GitHub Profile Details" />
 </p>
-

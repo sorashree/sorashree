@@ -1,0 +1,391 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="50%" stop-color="#0b1026"/>
+      <stop offset="100%" stop-color="#02040c"/>
+    </linearGradient>
+
+    <!-- Text glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Strong glow -->
+    <filter id="strongGlow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grid -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40"
+            fill="none"
+            stroke="#1d2a4a"
+            stroke-width="1"
+            opacity="0.45"/>
+    </pattern>
+
+    <!-- Rocket -->
+    <g id="rocket">
+
+      <!-- flame -->
+      <path d="M0 30 L-6 48 L0 43 L6 48 Z"
+            fill="#ff8a00">
+        <animate attributeName="opacity"
+                 values="1;0.3;1"
+                 dur="0.35s"
+                 repeatCount="indefinite"/>
+      </path>
+
+      <path d="M0 34 L-3 45 L0 41 L3 45 Z"
+            fill="#ffe066"/>
+
+      <!-- body -->
+      <path d="M0 -28
+               C-9 -18 -11 0 -8 18
+               L8 18
+               C11 0 9 -18 0 -28 Z"
+            fill="#e8f1ff"/>
+
+      <!-- nose -->
+      <path d="M0 -28
+               C-4 -24 -7 -19 -8 -14
+               L8 -14
+               C7 -19 4 -24 0 -28 Z"
+            fill="#62a8ff"/>
+
+      <!-- window -->
+      <circle cx="0" cy="-8" r="5"
+              fill="#07101f"
+              stroke="#55d6ff"
+              stroke-width="2"/>
+
+      <!-- fins -->
+      <path d="M-8 10 L-17 21 L-7 18 Z"
+            fill="#527cff"/>
+
+      <path d="M8 10 L17 21 L7 18 Z"
+            fill="#527cff"/>
+
+      <!-- movement -->
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 -520; 0 520"
+        dur="6s"
+        repeatCount="indefinite"/>
+    </g>
+
+    <!-- Small particle -->
+    <circle id="particle" cx="0" cy="0" r="2" fill="#65d9ff">
+      <animate attributeName="opacity"
+               values="0;1;0"
+               dur="2s"
+               repeatCount="indefinite"/>
+    </circle>
+
+  </defs>
+
+
+  <!-- BACKGROUND -->
+  <rect width="1200" height="430" fill="url(#bg)"/>
+
+  <rect width="1200" height="430" fill="url(#grid)"/>
+
+
+  <!-- TOP CIRCUIT LINES -->
+
+  <g fill="none"
+     stroke="#2874ff"
+     stroke-width="2"
+     opacity="0.7">
+
+    <path d="M0 70 H170 V45 H270"/>
+    <path d="M1200 70 H1030 V45 H930"/>
+
+    <path d="M0 110 H110 V135 H230"/>
+    <path d="M1200 110 H1090 V135 H970"/>
+
+  </g>
+
+
+  <!-- CIRCUIT NODES -->
+
+  <g fill="#4fd8ff">
+
+    <circle cx="170" cy="70" r="4">
+      <animate attributeName="r"
+               values="3;6;3"
+               dur="1.5s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1030" cy="70" r="4">
+      <animate attributeName="r"
+               values="3;6;3"
+               dur="1.8s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="110" cy="110" r="3"/>
+    <circle cx="1090" cy="110" r="3"/>
+
+  </g>
+
+
+  <!-- ROCKET STREAMS -->
+
+  <g opacity="0.9">
+
+    <g transform="translate(170 0)">
+      <use href="#rocket"/>
+    </g>
+
+    <g transform="translate(290 -130)">
+      <use href="#rocket">
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 -500;0 520"
+          dur="7s"
+          begin="1s"
+          repeatCount="indefinite"/>
+      </use>
+    </g>
+
+    <g transform="translate(910 -300)">
+      <use href="#rocket">
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 -500;0 520"
+          dur="6.5s"
+          begin="0.7s"
+          repeatCount="indefinite"/>
+      </use>
+    </g>
+
+    <g transform="translate(1030 -80)">
+      <use href="#rocket">
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 -500;0 520"
+          dur="7.5s"
+          begin="1.8s"
+          repeatCount="indefinite"/>
+      </use>
+    </g>
+
+  </g>
+
+
+  <!-- RF SIGNAL -->
+
+  <g transform="translate(600 235)"
+     fill="none"
+     stroke="#42d9ff"
+     stroke-width="3"
+     opacity="0.7">
+
+    <path d="M-45 15 Q0 -25 45 15">
+      <animate attributeName="opacity"
+               values="0.2;1;0.2"
+               dur="2s"
+               repeatCount="indefinite"/>
+    </path>
+
+    <path d="M-75 35 Q0 -40 75 35">
+      <animate attributeName="opacity"
+               values="0.1;0.8;0.1"
+               dur="2s"
+               begin="0.4s"
+               repeatCount="indefinite"/>
+    </path>
+
+    <path d="M-105 55 Q0 -55 105 55">
+      <animate attributeName="opacity"
+               values="0.05;0.6;0.05"
+               dur="2s"
+               begin="0.8s"
+               repeatCount="indefinite"/>
+    </path>
+
+  </g>
+
+
+  <!-- UAV BODY -->
+
+  <g transform="translate(600 150)"
+     stroke="#55d6ff"
+     stroke-width="2"
+     fill="none"
+     filter="url(#glow)">
+
+    <!-- main body -->
+    <path d="M-55 10
+             L-20 -8
+             L20 -8
+             L55 10
+             L25 25
+             L-25 25 Z"/>
+
+    <!-- left arm -->
+    <path d="M-30 5 L-95 -25"/>
+    <path d="M-95 -25 L-125 -5"/>
+
+    <!-- right arm -->
+    <path d="M30 5 L95 -25"/>
+    <path d="M95 -25 L125 -5"/>
+
+    <!-- rotors -->
+    <ellipse cx="-125" cy="-5" rx="28" ry="7">
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        values="0 -125 -5;360 -125 -5"
+        dur="1s"
+        repeatCount="indefinite"/>
+    </ellipse>
+
+    <ellipse cx="125" cy="-5" rx="28" ry="7">
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        values="360 125 -5;0 125 -5"
+        dur="1s"
+        repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- center sensor -->
+    <circle cx="0" cy="8" r="8">
+      <animate attributeName="r"
+               values="6;10;6"
+               dur="1.2s"
+               repeatCount="indefinite"/>
+    </circle>
+
+  </g>
+
+
+  <!-- MAIN NAME -->
+
+  <text x="600"
+        y="285"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="62"
+        font-weight="700"
+        letter-spacing="10"
+        fill="#ffffff"
+        filter="url(#strongGlow)">
+    SHREEYA
+  </text>
+
+
+  <!-- MAIN FIELD -->
+
+  <text x="600"
+        y="325"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="19"
+        letter-spacing="4"
+        fill="#63dfff">
+
+    ECE • EMBEDDED SYSTEMS • ROBOTICS
+
+  </text>
+
+
+  <!-- SPECIALIZATION -->
+
+  <text x="600"
+        y="355"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="14"
+        letter-spacing="2"
+        fill="#a9b9d6">
+
+    UAVs • RF SENSING • AUTONOMOUS SYSTEMS • AI
+
+  </text>
+
+
+  <!-- BOTTOM STATUS -->
+
+  <g font-family="monospace"
+     font-size="11"
+     fill="#5ee7ff">
+
+    <text x="55" y="395">
+      SENSOR: ONLINE
+    </text>
+
+    <text x="280" y="395">
+      RF LINK: ACTIVE
+    </text>
+
+    <text x="520" y="395">
+      AUTONOMY: ENABLED
+    </text>
+
+    <text x="805" y="395">
+      UAV: READY
+    </text>
+
+    <text x="1010" y="395">
+      SYSTEM: ONLINE
+    </text>
+
+  </g>
+
+
+  <!-- FLOATING PARTICLES -->
+
+  <g>
+
+    <use href="#particle" x="100" y="180">
+      <animate attributeName="cy"
+               values="180;90;180"
+               dur="4s"
+               repeatCount="indefinite"/>
+    </use>
+
+    <use href="#particle" x="350" y="100">
+      <animate attributeName="cy"
+               values="100;190;100"
+               dur="5s"
+               repeatCount="indefinite"/>
+    </use>
+
+    <use href="#particle" x="850" y="190">
+      <animate attributeName="cy"
+               values="190;100;190"
+               dur="4.5s"
+               repeatCount="indefinite"/>
+    </use>
+
+    <use href="#particle" x="1100" y="170">
+      <animate attributeName="cy"
+               values="170;80;170"
+               dur="5s"
+               repeatCount="indefinite"/>
+    </use>
+
+  </g>
+
+</svg>
