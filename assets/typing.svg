@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="100%"
+     height="80"
+     viewBox="0 0 1200 80">
+
+  <rect width="1200" height="80" fill="transparent"/>
+
+  <text x="600"
+        y="50"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="28"
+        fill="#00ff88">
+
+    ECE Embedded Systems Student • Robotics &amp; UAV Systems
+
+  </text>
+
+</svg>
