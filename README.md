@@ -18,10 +18,6 @@
 
 ---
 
-<!-- ========================================================= -->
-<!--                     A LITTLE ABOUT                         -->
-<!-- ========================================================= -->
-
 <h2 align="center">⚡ A Little About Me</h2>
 
 <p align="center">
@@ -42,10 +38,6 @@
 
 ---
 
-<!-- ========================================================= -->
-<!--                      TECH STACK                            -->
-<!-- ========================================================= -->
-
 <h2 align="center">🛠️ Tech Stack</h2>
 
 <p align="center">
@@ -62,17 +54,13 @@
 
 ---
 
-<!-- ========================================================= -->
-<!--                    WHAT I WORK WITH                       -->
-<!-- ========================================================= -->
-
 <h2 align="center">🤖 Areas of Interest</h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Robotics-111827?style=for-the-badge&logo=robotframework&logoColor=white">
   <img src="https://img.shields.io/badge/Embedded%20Systems-111827?style=for-the-badge&logo=arduino&logoColor=white">
-  <img src="https://img.shields.io/badge/UAV%20Systems-111827?style=for-the-badge&logo=drone&logoColor=white">
-  <img src="https://img.shields.io/badge/RF%20Sensing-111827?style=for-the-badge&logo=wireless&logoColor=white">
+  <img src="https://img.shields.io/badge/UAV%20Systems-111827?style=for-the-badge">
+  <img src="https://img.shields.io/badge/RF%20Sensing-111827?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -82,82 +70,6 @@
 </p>
 
 ---
-
-<!-- ========================================================= -->
-<!--                     SELECTED WORK                         -->
-<!-- ========================================================= -->
-
-<h2 align="center">🚀 Selected Work</h2>
-
-<p align="center">
-  <i>A few things I've been experimenting with.</i>
-</p>
-
-<table align="center">
-<tr>
-<td width="50%" valign="top">
-
-### 🛩️ UAV Systems
-
-Exploring autonomous aerial systems, payload-aware design, navigation and embedded control.
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🤖 Robotics
-
-Working with ROS 2, perception, simulation and autonomous robot behaviour.
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 📡 RF & Sensing
-
-Exploring wireless sensing, RSSI/CSI and localization for intelligent robotic systems.
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🧠 Intelligent Systems
-
-Experimenting with algorithms, computer vision and learning-based approaches for robotics.
-
-</td>
-</tr>
-</table>
-
----
-
-<!-- ========================================================= -->
-<!--                    FEATURED REPOSITORIES                   -->
-<!-- ========================================================= -->
-
-<h2 align="center">📌 Featured Repositories</h2>
-
-<p align="center">
-  <a href="https://github.com/sorashree/UavNetSim">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sorashree&repo=UavNetSim&theme=radical" />
-  </a>
-
-  <a href="https://github.com/sorashree/Maze-Solver">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sorashree&repo=Maze-Solver&theme=radical" />
-  </a>
-</p>
-
-<p align="center">
-  <i>More experiments, prototypes and engineering work live across my repositories.</i>
-</p>
-
----
-
-<!-- ========================================================= -->
-<!--                       GITHUB ACTIVITY                     -->
-<!-- ========================================================= -->
 
 <h2 align="center">📊 GitHub Activity</h2>
 
@@ -169,10 +81,6 @@ Experimenting with algorithms, computer vision and learning-based approaches for
 </p>
 
 ---
-
-<!-- ========================================================= -->
-<!--                       GITARTWORK                           -->
-<!-- ========================================================= -->
 
 <h2 align="center">🎨 GitHub Artwork</h2>
 
@@ -186,13 +94,10 @@ Experimenting with algorithms, computer vision and learning-based approaches for
 
 ---
 
-<!-- ========================================================= -->
-<!--                        CONNECT                             -->
-<!-- ========================================================= -->
-
 <h2 align="center">🌐 Connect</h2>
 
 <p align="center">
+
   <a href="https://github.com/sorashree">
     <img src="https://img.shields.io/badge/GitHub-sorashree-181717?style=for-the-badge&logo=github">
   </a>
@@ -200,6 +105,7 @@ Experimenting with algorithms, computer vision and learning-based approaches for
   <a href="YOUR_LINKEDIN_URL">
     <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin">
   </a>
+
 </p>
 
 ---
