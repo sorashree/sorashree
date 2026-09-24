@@ -1,397 +1,213 @@
 <!-- ========================================================= -->
-<!--                     SHREEYA MUKHERJEE                    -->
-<!--              ECE • EMBEDDED • ROBOTICS                   -->
+<!--                    HERO / INTRO                           -->
 <!-- ========================================================= -->
 
 <p align="center">
-  <img
-    src="./assets/github-header.svg"
-    width="100%"
-    alt="SHREEYA - ECE Embedded Systems Robotics"
-  />
+  <img src="./assets/github-header.svg" width="100%" alt="SHREEYA">
 </p>
 
 <p align="center">
-  <b>ECE • Embedded Systems • Robotics • Autonomous Systems</b>
+  <img src="./assets/typing.svg" width="75%" alt="Animated Introduction">
 </p>
 
 <p align="center">
-  <i>
-    Building intelligent systems across hardware, sensing,
-    communication, embedded control and autonomous decision-making.
-  </i>
-</p>
-
-<br>
-
-<!-- ========================================================= -->
-<!--                    QUICK IDENTITY                        -->
-<!-- ========================================================= -->
-
-<p align="center">
-  <img src="./assets/typing.svg" width="85%" alt="Shreeya Engineering Focus" />
-</p>
-
-<br>
-
-<p align="center">
-  <img
-    src="https://komarev.com/ghpvc/?username=sorashree&label=Profile%20Views&style=flat"
-    alt="Profile Views"
-  />
+  <a href="https://github.com/sorashree">
+    <img src="https://komarev.com/ghpvc/?username=sorashree&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views">
+  </a>
 </p>
 
 ---
 
-# 👩‍💻 About Me
+<!-- ========================================================= -->
+<!--                     A LITTLE ABOUT                         -->
+<!-- ========================================================= -->
 
-I'm an **Electronics & Communication Engineering student** focused on **Embedded Systems, Robotics and Autonomous Systems**.
+<h2 align="center">⚡ A Little About Me</h2>
 
-I enjoy building systems where **hardware, software, sensing and intelligent algorithms** work together — from embedded controllers and ROS 2 robots to autonomous UAV systems and RF-based sensing.
+<p align="center">
+  <b>Building at the intersection of Embedded Systems, Robotics & Intelligent Machines.</b>
+</p>
 
-My current technical direction combines:
+<p align="center">
+  I like turning ideas into systems that can
+  <br>
+  <b>Sense → Compute → Communicate → Act</b>
+</p>
 
-- 🤖 Robotics & Autonomous Systems
-- 🛩️ UAV Systems & Embedded Control
-- 📡 RF Sensing & Wireless Localization
-- 🔌 Embedded Systems & Microcontrollers
-- 🧠 AI / ML for Intelligent Systems
-- 🌐 UAV Communication & Networking
+<br>
 
-> **My goal:** build reliable engineering systems that can sense their environment, communicate, make decisions and act autonomously.
+<p align="center">
+  <img src="./assets/robotics.svg" width="82%" alt="Robotics Systems">
+</p>
 
 ---
 
-# 🎯 Engineering Focus
+<!-- ========================================================= -->
+<!--                      TECH STACK                            -->
+<!-- ========================================================= -->
+
+<h2 align="center">🛠️ Tech Stack</h2>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,java,arduino,raspberrypi,ros,linux,git,github,vscode,cmake,docker,opencv,pytorch,matlab,blender" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/ESP32-Embedded-informational?style=flat-square">
+  <img src="https://img.shields.io/badge/PX4-UAV-informational?style=flat-square">
+  <img src="https://img.shields.io/badge/Gazebo-Simulation-informational?style=flat-square">
+  <img src="https://img.shields.io/badge/RViz-ROS%202-informational?style=flat-square">
+  <img src="https://img.shields.io/badge/PlatformIO-Embedded-informational?style=flat-square">
+</p>
+
+---
+
+<!-- ========================================================= -->
+<!--                    WHAT I WORK WITH                       -->
+<!-- ========================================================= -->
+
+<h2 align="center">🤖 Areas of Interest</h2>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Robotics-111827?style=for-the-badge&logo=robotframework&logoColor=white">
+  <img src="https://img.shields.io/badge/Embedded%20Systems-111827?style=for-the-badge&logo=arduino&logoColor=white">
+  <img src="https://img.shields.io/badge/UAV%20Systems-111827?style=for-the-badge&logo=drone&logoColor=white">
+  <img src="https://img.shields.io/badge/RF%20Sensing-111827?style=for-the-badge&logo=wireless&logoColor=white">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Autonomous%20Systems-111827?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Computer%20Vision-111827?style=for-the-badge&logo=opencv&logoColor=white">
+  <img src="https://img.shields.io/badge/ROS%202-111827?style=for-the-badge&logo=ros&logoColor=white">
+</p>
+
+---
+
+<!-- ========================================================= -->
+<!--                     SELECTED WORK                         -->
+<!-- ========================================================= -->
+
+<h2 align="center">🚀 Selected Work</h2>
+
+<p align="center">
+  <i>A few things I've been experimenting with.</i>
+</p>
 
 <table align="center">
 <tr>
-
-<td align="center" width="25%">
-
-### 🤖 Robotics
-
-ROS 2  
-Autonomous Navigation  
-Obstacle Avoidance  
-Sensor Integration  
-Motion Planning
-
-</td>
-
-<td align="center" width="25%">
+<td width="50%" valign="top">
 
 ### 🛩️ UAV Systems
 
-PX4  
-Embedded Control  
-Payload Systems  
-Autonomous Flight  
-UAV Networking
+Exploring autonomous aerial systems, payload-aware design, navigation and embedded control.
 
 </td>
 
-<td align="center" width="25%">
+<td width="50%" valign="top">
+
+### 🤖 Robotics
+
+Working with ROS 2, perception, simulation and autonomous robot behaviour.
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
 
 ### 📡 RF & Sensing
 
-RF Sensing  
-Wi-Fi CSI  
-RSSI Localization  
-Wireless Communication  
-UAV Communication
+Exploring wireless sensing, RSSI/CSI and localization for intelligent robotic systems.
 
 </td>
 
-<td align="center" width="25%">
+<td width="50%" valign="top">
 
 ### 🧠 Intelligent Systems
 
-Python  
-PyTorch  
-Computer Vision  
-Machine Learning  
-AI for Robotics
+Experimenting with algorithms, computer vision and learning-based approaches for robotics.
 
 </td>
-
 </tr>
 </table>
 
 ---
 
-# 🚀 Featured Engineering Projects
+<!-- ========================================================= -->
+<!--                    FEATURED REPOSITORIES                   -->
+<!-- ========================================================= -->
 
-<table align="center">
-
-<tr>
-
-<td width="50%" valign="top">
-
-## 🛩️ Payload-Aware Autonomous UAV
-
-An autonomous UAV delivery system exploring the engineering challenges of payload-aware flight.
-
-**Focus**
-
-- Payload mass and center of mass
-- Thrust requirements
-- Battery discharge
-- Autonomous navigation
-- Payload release mechanism
-- Return-to-home behaviour
-- Future intelligent control
-
-**Technologies**
-
-`PX4` `ROS 2` `Embedded Systems` `UAV`
-
-</td>
-
-<td width="50%" valign="top">
-
-## 📡 UavNetSim
-
-An independent implementation and study of UAV network simulation concepts.
-
-**Focus**
-
-- UAV communication
-- Dynamic routing
-- Q-Routing
-- Packet delivery
-- Network simulation
-- Routing behaviour analysis
-
-**Technologies**
-
-`Python` `Networking` `UAV` `Routing` `Simulation`
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-## 🤖 ROS 2 Autonomous Robot
-
-A from-scratch obstacle avoidance system for a mobile robot.
-
-**Focus**
-
-- LiDAR `/scan`
-- Velocity control `/cmd_vel`
-- Local obstacle representation
-- Vector-field based navigation
-- RViz visualization
-- Gazebo simulation
-
-**Technologies**
-
-`C++` `ROS 2` `RViz` `Gazebo`
-
-</td>
-
-<td width="50%" valign="top">
-
-## 🚆 TRAILBLAZER
-
-A railway forecasting system designed to estimate dynamic train arrival times from large-scale railway movement data.
-
-**Focus**
-
-- Train movement data
-- Dynamic ETA prediction
-- Machine learning
-- Real-time replay
-- Interactive map visualization
-
-**Technologies**
-
-`Python` `ML` `GRU` `WebSocket` `Maps`
-
-</td>
-
-</tr>
-
-</table>
-
----
-
-# ⚙️ Technology Stack
-
-### Programming Languages
+<h2 align="center">📌 Featured Repositories</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,java" />
-</p>
+  <a href="https://github.com/sorashree/UavNetSim">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sorashree&repo=UavNetSim&theme=radical" />
+  </a>
 
-### Embedded & Hardware
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=arduino,raspberrypi" />
+  <a href="https://github.com/sorashree/Maze-Solver">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sorashree&repo=Maze-Solver&theme=radical" />
+  </a>
 </p>
 
 <p align="center">
-  <b>ESP32 • Arduino • Microcontrollers • Embedded Control • Sensors</b>
-</p>
-
-### Robotics & Simulation
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ros,linux,opencv" />
-</p>
-
-<p align="center">
-  <b>ROS 2 • PX4 • Gazebo • RViz • OpenCV • UAV Systems</b>
-</p>
-
-### Development & Engineering Tools
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,cmake,docker" />
-</p>
-
-<p align="center">
-  <b>Linux • Git • GitHub • VS Code • CMake • Docker • PlatformIO</b>
-</p>
-
-### AI / Scientific Computing
-
-<p align="center">
-  <b>PyTorch • MATLAB • Machine Learning • Computer Vision • Data Analysis</b>
+  <i>More experiments, prototypes and engineering work live across my repositories.</i>
 </p>
 
 ---
 
-# 📡 Current Technical Exploration
+<!-- ========================================================= -->
+<!--                       GITHUB ACTIVITY                     -->
+<!-- ========================================================= -->
 
-I'm currently developing deeper knowledge in:
+<h2 align="center">📊 GitHub Activity</h2>
 
-```text
-RF Sensing
-     ↓
-Wi-Fi CSI / RSSI
-     ↓
-Wireless Localization
-     ↓
-Robotic Perception
-     ↓
-Autonomous Decision Making
-     ↓
-UAV Communication
-     ↓
-Embodied & Intelligent Robotics
-Areas I'm particularly interested in
-RF sensing for robotics
-Wireless localization
-Wi-Fi CSI / RSSI based perception
-UAV communication networks
-Dynamic aerial routing
-Embedded AI
-Sensor-driven autonomy
-Swarm robotics
-Autonomous UAV systems
-🧩 Engineering Approach
-
-I believe good robotics systems are built by connecting multiple engineering layers:
-
-<table align="center"> <tr> <td align="center">
-01
-Sense
-
-Sensors
-LiDAR
-RF
-IMU
-Camera
-
-</td> <td align="center">
-02
-Compute
-
-Embedded
-C / C++
-Python
-AI / ML
-
-</td> <td align="center">
-03
-Communicate
-
-ROS 2
-Wireless
-UAV Networks
-Telemetry
-
-</td> <td align="center">
-04
-Act
-
-Control
-Navigation
-Planning
-Autonomy
-
-</td> </tr> </table> <p align="center"> <b>SENSE → COMPUTE → COMMUNICATE → DECIDE → ACT</b> </p>
-📚 Currently Learning
-<table align="center"> <tr> <td align="center">
-
-🤖
-<b>Advanced Robotics</b>
-
-ROS 2
-Navigation
-Planning
-Sensor Fusion
-
-</td> <td align="center">
-
-🛩️
-<b>UAV Systems</b>
-
-PX4
-Flight Control
-Communication
-Autonomy
-
-</td> <td align="center">
-
-📡
-<b>RF Sensing</b>
-
-CSI
-RSSI
-Localization
-Wireless Systems
-
-</td> <td align="center">
-
-🧠
-<b>Reinforcement Learning</b>
-
-RL Fundamentals
-Q-Learning
-Decision Making
-Robotics
-
-</td> </tr> </table>
-
-📊 GitHub Activity
-<p align="center"> <i> Building consistently, learning continuously and turning concepts into working systems. </i> </p> <p align="center"> <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sorashree&theme=github_dark" alt="Shreeya GitHub Profile Activity" /> </p>
-
-GitHub's native contribution graph below the profile README remains the primary activity view.
-
-🎨 GitHub Artwork
-<p align="center"> <img src="./gitartwork.svg" width="100%" alt="SHREEYA GitHub Contribution Artwork" /> </p>
-🤝 Let's Connect
-<p align="center"> <a href="https://github.com/sorashree"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /> </a> <!-- Replace YOUR_LINKEDIN_USERNAME with your actual LinkedIn username --> <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /> </a> <!-- Replace YOUR_EMAIL with your email address --> <a href="mailto:YOUR_EMAIL"> <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /> </a> </p>
 <p align="center">
-🚀 Building the future, one system at a time.
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sorashree&theme=github_dark"
+    alt="Shreeya GitHub Profile Details"
+  />
+</p>
 
-<b>ECE • Embedded Systems • Robotics • UAVs • RF Sensing • Autonomous AI</b>
+---
 
-</p> <p align="center"> <i>Sense • Compute • Communicate • Decide • Act</i> </p>
-<!-- ========================================================= --> <!-- END --> <!-- ========================================================= -->
+<!-- ========================================================= -->
+<!--                       GITARTWORK                           -->
+<!-- ========================================================= -->
+
+<h2 align="center">🎨 GitHub Artwork</h2>
+
+<p align="center">
+  <img
+    src="./gitartwork.svg"
+    width="100%"
+    alt="SHREEYA GitHub Artwork"
+  />
+</p>
+
+---
+
+<!-- ========================================================= -->
+<!--                        CONNECT                             -->
+<!-- ========================================================= -->
+
+<h2 align="center">🌐 Connect</h2>
+
+<p align="center">
+  <a href="https://github.com/sorashree">
+    <img src="https://img.shields.io/badge/GitHub-sorashree-181717?style=for-the-badge&logo=github">
+  </a>
+
+  <a href="YOUR_LINKEDIN_URL">
+    <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin">
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <i>Curious about machines that can sense, reason and move.</i>
+</p>
+
+<p align="center">
+  <b>Build • Experiment • Learn • Repeat</b>
+</p>
