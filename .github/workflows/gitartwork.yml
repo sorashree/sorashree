@@ -3,6 +3,9 @@ name: Gitartwork
 on:
   push:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Make gitartwork SVG
@@ -10,15 +13,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Generate Gitartwork
         uses: jasineri/gitartwork@v1
         with:
-          # Your GitHub username
           user_name: sorashree
-
-          # Text displayed on the artwork
           text: SHREEYA
 
       - name: Push Gitartwork
