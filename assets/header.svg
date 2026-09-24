@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="420"
+     viewBox="0 0 1200 420">
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#050505"/>
+
+  <!-- Circuit grid -->
+  <g stroke="#123b32"
+     stroke-width="1"
+     opacity="0.45">
+
+    <path d="M0 70 H180 V120 H300"/>
+    <path d="M0 350 H220 V300 H360"/>
+    <path d="M1200 80 H1040 V130 H900"/>
+    <path d="M1200 350 H1000 V300 H850"/>
+
+    <path d="M250 0 V80 H330"/>
+    <path d="M850 0 V80 H770"/>
+    <path d="M400 420 V350 H480"/>
+    <path d="M800 420 V350 H720"/>
+
+  </g>
+
+  <!-- Circuit nodes -->
+  <g fill="#00ff88">
+
+    <circle cx="180" cy="70" r="4"/>
+    <circle cx="300" cy="120" r="4"/>
+    <circle cx="220" cy="350" r="4"/>
+    <circle cx="360" cy="300" r="4"/>
+
+    <circle cx="1040" cy="80" r="4"/>
+    <circle cx="900" cy="130" r="4"/>
+    <circle cx="1000" cy="350" r="4"/>
+    <circle cx="850" cy="300" r="4"/>
+
+  </g>
+
+  <!-- UAV body -->
+  <g transform="translate(600 85)"
+     fill="none"
+     stroke="#00ff88"
+     stroke-width="3">
+
+    <!-- Main body -->
+    <path d="M-55 0
+             L-25 -18
+             L25 -18
+             L55 0
+             L25 18
+             L-25 18
+             Z"/>
+
+    <!-- Left arm -->
+    <path d="M-40 -5 L-115 -45"/>
+    <path d="M-40 5 L-115 45"/>
+
+    <!-- Right arm -->
+    <path d="M40 -5 L115 -45"/>
+    <path d="M40 5 L115 45"/>
+
+    <!-- Rotors -->
+    <ellipse cx="-125" cy="-50" rx="28" ry="8"/>
+    <ellipse cx="-125" cy="50" rx="28" ry="8"/>
+    <ellipse cx="125" cy="-50" rx="28" ry="8"/>
+    <ellipse cx="125" cy="50" rx="28" ry="8"/>
+
+    <!-- Payload -->
+    <rect x="-15"
+          y="18"
+          width="30"
+          height="28"
+          rx="3"/>
+
+  </g>
+
+  <!-- UAV signal waves -->
+  <g fill="none"
+     stroke="#00ff88"
+     stroke-width="2"
+     opacity="0.65">
+
+    <path d="M520 35 Q600 -20 680 35">
+      <animate attributeName="opacity"
+               values="0.2;0.8;0.2"
+               dur="2s"
+               repeatCount="indefinite"/>
+    </path>
+
+    <path d="M490 10 Q600 -70 710 10">
+      <animate attributeName="opacity"
+               values="0.1;0.6;0.1"
+               dur="2.5s"
+               repeatCount="indefinite"/>
+    </path>
+
+  </g>
+
+  <!-- Main identity -->
+  <text x="600"
+        y="230"
+        text-anchor="middle"
+        fill="#ffffff"
+        font-family="monospace"
+        font-size="42"
+        font-weight="bold">
+
+    SHREEYA MUKHERJEE
+
+  </text>
+
+  <!-- Main field -->
+  <text x="600"
+        y="270"
+        text-anchor="middle"
+        fill="#00ff88"
+        font-family="monospace"
+        font-size="22">
+
+    ECE • EMBEDDED SYSTEMS • ROBOTICS
+
+  </text>
+
+  <!-- Focus areas -->
+  <text x="600"
+        y="305"
+        text-anchor="middle"
+        fill="#aaaaaa"
+        font-family="monospace"
+        font-size="17">
+
+    UAVs • RF SENSING • AUTONOMOUS SYSTEMS • AI
+
+  </text>
+
+  <!-- Bottom divider -->
+  <line x1="300"
+        y1="345"
+        x2="900"
+        y2="345"
+        stroke="#00ff88"
+        stroke-width="1"
+        opacity="0.6"/>
+
+  <!-- Status -->
+  <text x="600"
+        y="380"
+        text-anchor="middle"
+        fill="#777777"
+        font-family="monospace"
+        font-size="14">
+
+    BUILDING SYSTEMS THAT SENSE • THINK • ACT
+
+  </text>
+
+</svg>
