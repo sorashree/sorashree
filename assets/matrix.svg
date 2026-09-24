@@ -1,32 +1,106 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="100%"
-     height="250"
-     viewBox="0 0 1200 250">
+     width="1200"
+     height="280"
+     viewBox="0 0 1200 280">
 
-  <rect width="1200" height="250" fill="#000000"/>
+  <rect width="1200" height="280" fill="#050505"/>
 
   <g fill="#00ff88"
      font-family="monospace"
-     font-size="18"
-     opacity="0.85">
+     font-size="16">
 
-    <text x="30" y="30">01001001 01000001 01010101</text>
-    <text x="250" y="65">10110100 01010010 01001111</text>
-    <text x="80" y="100">11001010 10100101 01101100</text>
-    <text x="500" y="135">01010010 01001111 01000010</text>
-    <text x="150" y="170">10101010 01000101 01001100</text>
-    <text x="700" y="205">01000001 01001001 01010101</text>
+    <text x="30" y="-20">01010101
+      <animate attributeName="y"
+               from="-20"
+               to="300"
+               dur="4s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="120" y="-80">10110010
+      <animate attributeName="y"
+               from="-80"
+               to="300"
+               dur="5s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="230" y="-140">01001010
+      <animate attributeName="y"
+               from="-140"
+               to="300"
+               dur="3.5s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="350" y="-50">11010101
+      <animate attributeName="y"
+               from="-50"
+               to="300"
+               dur="4.5s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="470" y="-110">00110110
+      <animate attributeName="y"
+               from="-110"
+               to="300"
+               dur="3.8s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="590" y="-30">10101001
+      <animate attributeName="y"
+               from="-30"
+               to="300"
+               dur="4.2s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="710" y="-120">01011100
+      <animate attributeName="y"
+               from="-120"
+               to="300"
+               dur="5.2s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="830" y="-60">11001010
+      <animate attributeName="y"
+               from="-60"
+               to="300"
+               dur="3.7s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="950" y="-150">00101101
+      <animate attributeName="y"
+               from="-150"
+               to="300"
+               dur="4.8s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="1080" y="-40">10110100
+      <animate attributeName="y"
+               from="-40"
+               to="300"
+               dur="4.1s"
+               repeatCount="indefinite"/>
+    </text>
 
   </g>
 
   <text x="600"
-        y="135"
+        y="145"
         text-anchor="middle"
-        fill="#ffffff"
+        fill="white"
         font-family="monospace"
-        font-size="34"
+        font-size="32"
         font-weight="bold">
+
     ROBOTICS • EMBEDDED • AUTONOMY
+
   </text>
 
 </svg>
